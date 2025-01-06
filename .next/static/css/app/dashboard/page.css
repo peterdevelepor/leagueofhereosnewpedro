@@ -5,137 +5,138 @@
 
 /* Container */
 .dashboard_container__Kdrrt {
-  margin: 20px auto;
-  max-width: 900px;
-  font-family: 'Poppins', Arial, sans-serif;
-  color: #2c3e50; /* Cor escura suave */
+  margin: 10px auto;
+  max-width: 1000px;
+  font-family: 'Roboto Mono', monospace; /* Fonte completamente diferente */
+  color: #1e272e; /* Cor escura mais acinzentada */
 }
 
 /* Título */
 .dashboard_title__16hVG {
-  font-size: 2.8rem;
+  font-size: 3rem;
   text-align: center;
-  margin-bottom: 30px;
-  font-weight: 700;
-  color: #34495e; /* Tom de azul escuro */
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  font-weight: 800;
+  color: #0abde3; /* Tom vibrante de azul */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Tabela */
 .dashboard_table__qUgyM {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate; /* Tabela com bordas separadas */
+  border-spacing: 0 12px; /* Espaçamento entre linhas */
   margin: 20px 0;
-  background-color: #ffffff;
-  border-radius: 12px;
+  background-color: #f5f6fa;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
 }
 
 /* Cabeçalho da Tabela */
 .dashboard_tableHeader__n9Xxd {
-  background-color: #1abc9c; /* Cor verde suave */
-  padding: 18px;
-  text-align: left;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
+  background-color: #2d3436; /* Cor cinza escuro */
+  padding: 20px;
+  text-align: center; /* Centraliza os textos do cabeçalho */
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: capitalize;
 }
 
 /* Células da Tabela */
 .dashboard_tableCell__w41zy {
-  padding: 18px;
-  text-align: left;
+  padding: 20px;
+  text-align: center; /* Centraliza o conteúdo */
   font-size: 1rem;
-  color: #2c3e50;
-  border-bottom: 1px solid #ecf0f1;
+  color: #636e72;
+  border-bottom: none;
 }
 
 /* Linhas Alternadas */
 .dashboard_table__qUgyM tbody tr:nth-child(odd) {
-  background-color: #f9f9f9; /* Cor de fundo alternada mais clara */
+  background-color: #dcdde1; /* Cor alternada mais suave */
 }
 
 /* Efeito de Hover nas Linhas da Tabela */
 .dashboard_table__qUgyM tbody tr:hover {
-  background-color: #e1f7f1; /* Cor de fundo mais suave no hover */
-  transition: background-color 0.3s ease-in-out;
+  background-color: #c8d6e5; /* Tom claro de azul no hover */
+  transition: background-color 0.2s ease-in-out;
 }
 
 /* Imagem do Herói */
 .dashboard_heroImage__q88wp {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #1abc9c;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  border-radius: 8px;
+  border: 2px solid #45aaf2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
 }
 
 /* Botões de Ação */
 .dashboard_actionButton__hz1HX {
-  margin: 0 5px;
-  padding: 10px 20px;
-  font-size: 0.9rem;
+  margin: 0 8px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
   cursor: pointer;
   border: none;
-  border-radius: 25px;
-  color: white;
-  transition: all 0.3s ease;
-  font-weight: 600;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px; /* Menos arredondado */
+  color: #ffffff;
+  transition: all 0.2s ease;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 /* Efeito de Hover nos Botões de Ação */
 .dashboard_actionButton__hz1HX:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Pequeno aumento */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Botão de Excluir */
 .dashboard_deleteButton__7cD0J {
-  background: linear-gradient(90deg, #e74c3c, #c0392b);
+  background: #eb3b5a; /* Vermelho vibrante */
 }
 
 .dashboard_deleteButton__7cD0J:hover {
-  background: linear-gradient(90deg, #c0392b, #e74c3c);
+  background: #fc5c65; /* Vermelho mais claro */
 }
 
 /* Botão de Favoritar */
 .dashboard_favoriteButton__6efSd {
-  background: linear-gradient(90deg, #27ae60, #2ecc71);
+  background: #26de81; /* Verde vibrante */
 }
 
 .dashboard_favoriteButton__6efSd:hover {
-  background: linear-gradient(90deg, #2ecc71, #27ae60);
+  background: #20bf6b; /* Verde mais escuro */
 }
 
 /* Botão de Editar */
 .dashboard_editButton__jgsz4 {
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: #4b7bec; /* Azul vibrante */
 }
 
 .dashboard_editButton__jgsz4:hover {
-  background: linear-gradient(90deg, #2980b9, #3498db);
+  background: #3867d6; /* Azul mais escuro */
 }
 
 /* Botão Adicionar */
 .dashboard_addButton__qj5pA {
-  padding: 12px 24px;
-  font-size: 1.1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
   cursor: pointer;
-  background-color: #3498db; /* Azul suave */
-  color: white;
+  background-color: #fed330; /* Amarelo vibrante */
+  color: #2d3436; /* Texto escuro */
   border: none;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dashboard_addButton__qj5pA:hover {
-  background-color: #2980b9;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f7b731; /* Amarelo mais escuro */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 

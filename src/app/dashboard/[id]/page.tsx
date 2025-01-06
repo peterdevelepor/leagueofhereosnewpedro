@@ -16,7 +16,7 @@ const Form = () => {
     id: elemento.id,
     name: elemento.hero,
     image_url: elemento.img,
-    super_power: elemento.superPowers
+    super_power: elemento.superpower
   } : {
     id: null,
     name: "",
