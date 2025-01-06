@@ -19,13 +19,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export default function RootLayout({
-  children
-}: Readonly<{
-  children: React.ReactNode;
-  Header: React.ReactNode;
-  Footer: React.ReactNode;
-}>) {
+ {
   const [data, setData] = useState({
     my_name: 'Pedro Marques',
     project_name: 'League of Heroes'
