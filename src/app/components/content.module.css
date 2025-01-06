@@ -1,0 +1,120 @@
+/* Content.module.css */
+
+/* Container principal */
+.container {
+  display: flex; /* Define como Flexbox */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  align-items: center; /* Centraliza os cards verticalmente */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha, se necessário */
+  gap: 20px; /* Reduz o espaçamento entre os cards */
+  padding: 15px;
+  height: 70vh; /* Altura reduzida para centralizar melhor */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+/* Contêiner do botão */
+.buttonContainer {
+  display: flex;
+  justify-content: center; /* Centraliza o botão horizontalmente */
+  margin-top: 15px; /* Ajuste para posicionar o botão mais próximo dos cards */
+}
+
+/* Card do herói */
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 240px; /* Largura reduzida */
+  height: 350px; /* Altura reduzida */
+  background: linear-gradient(135deg, #574e4c, #222120);
+  border-radius: 12px; /* Bordas arredondadas */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.heroCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.05);
+}
+
+/* Imagem do herói */
+.heroImage {
+  width: 100%;
+  height: 60%; /* Ajustada proporcionalmente à nova altura */
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Nome do herói */
+.heroName {
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem; /* Fonte menor */
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.title {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2rem; /* Fonte menor */
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão de gerar heróis */
+.generateButton {
+  background-color: #444e50;
+  border: none;
+  color: white;
+  padding: 10px 25px; /* Tamanho reduzido do botão */
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px; /* Fonte menor */
+  cursor: pointer;
+  border-radius: 40px; /* Botão mais arredondado */
+  width: 180px; /* Botão menor */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.generateButton:hover {
+  background-color: #122b2e;
+  transform: scale(1.05); /* Reduzido o efeito de aumento */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Botão para dispositivos móveis */
+@media (max-width: 768px) {
+  .generateButton {
+    width: 70%; /* Botão ocupa mais largura em telas pequenas */
+  }
+}
+
+/* Ajuste para dispositivos ainda menores */
+@media (max-width: 480px) {
+  .heroCard {
+    width: 90%; /* Cards ocupam quase toda a largura */
+  }
+
+  .generateButton {
+    width: 100%; /* Botão ocupa toda a largura */
+  }
+}

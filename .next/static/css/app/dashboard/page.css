@@ -1,0 +1,141 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/dashboard/dashboard.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/* Dashboard.module.css */
+
+/* Container */
+.dashboard_container__Kdrrt {
+  margin: 20px auto;
+  max-width: 900px;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #2c3e50; /* Cor escura suave */
+}
+
+/* Título */
+.dashboard_title__16hVG {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #34495e; /* Tom de azul escuro */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabela */
+.dashboard_table__qUgyM {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Cabeçalho da Tabela */
+.dashboard_tableHeader__n9Xxd {
+  background-color: #1abc9c; /* Cor verde suave */
+  padding: 18px;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Células da Tabela */
+.dashboard_tableCell__w41zy {
+  padding: 18px;
+  text-align: left;
+  font-size: 1rem;
+  color: #2c3e50;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+/* Linhas Alternadas */
+.dashboard_table__qUgyM tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Cor de fundo alternada mais clara */
+}
+
+/* Efeito de Hover nas Linhas da Tabela */
+.dashboard_table__qUgyM tbody tr:hover {
+  background-color: #e1f7f1; /* Cor de fundo mais suave no hover */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Imagem do Herói */
+.dashboard_heroImage__q88wp {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #1abc9c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Botões de Ação */
+.dashboard_actionButton__hz1HX {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Efeito de Hover nos Botões de Ação */
+.dashboard_actionButton__hz1HX:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de Excluir */
+.dashboard_deleteButton__7cD0J {
+  background: linear-gradient(90deg, #e74c3c, #c0392b);
+}
+
+.dashboard_deleteButton__7cD0J:hover {
+  background: linear-gradient(90deg, #c0392b, #e74c3c);
+}
+
+/* Botão de Favoritar */
+.dashboard_favoriteButton__6efSd {
+  background: linear-gradient(90deg, #27ae60, #2ecc71);
+}
+
+.dashboard_favoriteButton__6efSd:hover {
+  background: linear-gradient(90deg, #2ecc71, #27ae60);
+}
+
+/* Botão de Editar */
+.dashboard_editButton__jgsz4 {
+  background: linear-gradient(90deg, #3498db, #2980b9);
+}
+
+.dashboard_editButton__jgsz4:hover {
+  background: linear-gradient(90deg, #2980b9, #3498db);
+}
+
+/* Botão Adicionar */
+.dashboard_addButton__qj5pA {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #3498db; /* Azul suave */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard_addButton__qj5pA:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
