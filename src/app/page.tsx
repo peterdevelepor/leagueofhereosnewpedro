@@ -2,9 +2,9 @@
 "use client";
 
 import styles from "./page.module.css";
-import Header from "./Header/header";
+import Header from "./@Header/header";
 import Content from "./components/Content";
-import Footer from "./Footer/footer";
+import Footer from "./@Footer/footer";
 
 export default function Home() {
 

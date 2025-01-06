@@ -188,10 +188,10 @@ a {
     opacity: 0.6;
   }
 }
-/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/Header/header.module.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************/
-.header_header__mb3o4 {
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/@Header/header.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.header_header__Inz3O {
   background: #1c1c1c; /* Fundo escuro para um visual mais moderno */
   color: #f1f1f1; /* Texto claro para contraste */
   padding: 60px 30px; /* Espaçamento mais generoso */
@@ -201,7 +201,7 @@ a {
   font-family: 'Lora', serif; /* Fonte serifada para um estilo mais sofisticado */
 }
 
-.header_title__Z_4Uy {
+.header_title__b1040 {
   font-size: 3.2rem; /* Tamanho maior para o título */
   font-weight: 900; /* Peso mais forte */
   margin: 0;
@@ -210,7 +210,7 @@ a {
   font-family: 'Merriweather', serif; /* Fonte mais destacada para o título */
 }
 
-.header_subtitle__MtV6u {
+.header_subtitle__by16k {
   font-size: 1.8rem; /* Subtítulo com um tamanho considerável */
   font-weight: 400; /* Peso médio para o subtítulo */
   margin: 10px 0 30px;
@@ -219,14 +219,14 @@ a {
   font-family: 'Open Sans', sans-serif; /* Fonte sans-serif para o subtítulo */
 }
 
-.header_nav__cqzhy {
+.header_nav__VFxo1 {
   display: flex;
   justify-content: center; /* Centraliza os links horizontalmente */
   gap: 30px; /* Espaçamento adequado entre os links */
   margin-top: 20px; /* Espaço superior para os links */
 }
 
-.header_navLink__gl9kR {
+.header_navLink__nFUtI {
   color: #f1f1f1;
   text-decoration: none;
   font-size: 1.5rem; /* Tamanho da fonte dos links */
@@ -238,12 +238,12 @@ a {
   font-family: 'Roboto Slab', serif; /* Fonte serifada para links */
 }
 
-.header_navLink__gl9kR:hover {
+.header_navLink__nFUtI:hover {
   color: #ff6347; /* Cor vibrante ao passar o mouse */
   background-color: rgba(255, 99, 71, 0.1); /* Cor suave no hover */
 }
 
-.header_navLink__gl9kR::after {
+.header_navLink__nFUtI::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -255,14 +255,14 @@ a {
   transform: translateX(-50%);
 }
 
-.header_navLink__gl9kR:hover::after {
+.header_navLink__nFUtI:hover::after {
   width: 100%; /* Linha de destaque que cresce ao passar o mouse */
 }
 
-/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/Footer/footer.module.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************/
-.footer_footer__u7L4L {
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/@Footer/footer.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__P6X5Y {
   background: #1c1c1c; /* Fundo escuro para manter a consistência */
   color: #f1f1f1; /* Texto claro para contraste */
   padding: 30px 20px; /* Espaçamento adequado */
@@ -278,7 +278,7 @@ a {
   border-radius: 20px 20px 0 0; /* Bordas arredondadas para combinar com o header */
 }
 
-.footer_footerLink__aNZHD {
+.footer_footerLink__Q9Att {
   text-decoration: none;
   color: #f1f1f1;
   font-weight: 500;
@@ -287,7 +287,7 @@ a {
   border-radius: 10px; /* Bordas arredondadas para os links */
 }
 
-.footer_footerLink__aNZHD:hover {
+.footer_footerLink__Q9Att:hover {
   color: #ff6347; /* Cor vibrante ao passar o mouse */
   background-color: rgba(255, 99, 71, 0.1); /* Cor suave no hover */
   transform: translateY(-3px); /* Suaviza o movimento do hover */
